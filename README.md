@@ -27,13 +27,14 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 | Parameter | Forklaring | Verdi|
 |-----------|-------|------|
 | $R$   | Jordens radius |6371 $10^{3}$ m  |
-| $S$  | Energitettheten fra Sola. Energitettheten er definert som mengden energi som kommer gjennom et areal på 1 $m^{2}$. For innkommen solenergi er dette  | 1367.7 $Wm^-2$|
+| $S$  | Energitettheten fra Sola. Energitettheten er definert som mengden energi som kommer gjennom et areal på 1 $m^{2}$. For innkommen solenergi er dette  | 1367.7 $Wm^{-2}$|
 | $\sigma$  | Stefan–Boltzmann konstant | 5.67 $10^{-8}$|
 
-![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/flat_jord.png)
+
 
 ### Bygge modellen
 #### Innkommen energi
+![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/flat_jord.png)
 Sett fra sola vil jorda være en disk (se illutrasjonen ovenfor). Jordas areal derfor være gitt ved A = $\pi$ $R^{2}$. 
 Energifluksen fra sola er gitt ved $S$, slik at total innkommen energi fra sola vil være gitt ved
 
@@ -67,8 +68,8 @@ Når vi løser dette med hensyn på $T$, får vi
 
 $$T = \left(\frac{S/4}{\sigma}\right)^{1/4}\. $$ 
 
-Med de numeriske verdiene vi jobber med, har vi da 
+Med de numeriske verdiene vi jobber med, får vi da 
 
-$$T = \left(\frac{1376.6/4}{5.67*10^(-8)}\right)^{1/4}\. $$ = 276.6 $K$. Dette tilsvarer rundt 5.5 grader Celsius. 
+$$T = \left(\frac{1376.6/4}{5.67*10^{-8}}\right)^{1/4}\. $$ = 276.6 $K$. Dette tilsvarer rundt 5.5 grader Celsius. 
 
 
