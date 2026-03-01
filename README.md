@@ -27,14 +27,14 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 | Parameter | Forklaring | Verdi|
 |-----------|-------|------|
 | $R$   | Jordens radius |6371 $10^{3}$ m  |
-| $S$  | Energitettheten fra Sola. Energitettheten er definert som mengden energi som kommer gjennom et areal på 1 $m^{2}$. For innkommen solenergi er dette  | 1367.7 $\Wm^{-2}$|
+| $S$  | Energitettheten fra Sola. Energitettheten er definert som mengden energi som kommer gjennom et areal på 1 $m^{2}$. For innkommen solenergi er dette  | 1367.7 $\Wm^(-2)$|
 | $\sigma$  | Stefan–Boltzmann konstant | 5.67 $10^{-8}$|
 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/flat_jord.png)
 
 ### Bygge modellen
 #### Innkommen energi
-Jorda sett fra sola vil være en disk (se illutrasjonen ovenfor. Jordas areal, sett fra sola treffer vil derfor være gitt ved A = $\pi$ $R^{2}$. 
+Sett fra sola vil jorda være en disk (se illutrasjonen ovenfor). Jordas areal derfor være gitt ved A = $\pi$ $R^{2}$. 
 Energifluksen fra sola er gitt ved $S$, slik at total innkommen energi fra sola vil være gitt ved
 
 Innkommen energi(W)= $E_{\text{in}}$ = $A_{\text{jorda}}$ $S$ = $\pi$ $R^{2}$ $S$
