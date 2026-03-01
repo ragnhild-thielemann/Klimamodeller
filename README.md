@@ -16,4 +16,4 @@ Som følge av dette blir det vanskeligere for varmestrålingen å slippe ut til 
 
 ##
 
-!([Demo](images/flat_jord.png))
+![yayayaya](images/flat_jord.png)
