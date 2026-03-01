@@ -51,14 +51,20 @@ uttrykt som
 $$F_{\mathrm{SB}}(T)=\sigma T^4$$, der $\sigma$  er Stefan–Boltzmanns konstant. 
 
 Når denne loven anvendes på Jorden, tar man utgangspunkt i at planetens totale overflateareal er A = 4
-$\pi$ $R^{2}$ (altså overflaten til en kule). Dette innebærer at den samlede energien Jorden stråler ut til verdensrommet, forutsatt at den oppfører seg som et tilnærmet svart legeme, kan beskrives ved uttrykket E_{\mathrm{out}}=4\pi R^2\sigma T^4. 
+$\pi$ $R^{2}$ (altså overflaten til en kule). Dette innebærer at den samlede energien Jorden stråler ut til verdensrommet, forutsatt at den oppfører seg som et tilnærmet svart legeme, kan beskrives ved uttrykket 
 
 $$E_{\text{ut}} = A_{\text{jorda}}
 F_{\mathrm{SB}}(T) = \sigma T^4 4\pi R^2
 $$
 
+Dersom den innkommende strålignen er større enn den utgående, vil temperaturen på  jorda øke. Motsatt, dersom innkommende energi er lavere enn energien jorda sender ut, vil temepaturen avta. Likvekten, der 
+$$E_{\text{inn}} = E_{\text{ut}}$$ er der temperaturen holdes konstnat, og omtales gjerne som $termisk likevekt$
 
-Denne relasjonen danner et grunnleggende element i enkle klimamodeller, ettersom den kobler planetens temperatur direkte til dens evne til å kvitte seg med energi, og dermed inngår i vurderingen av energibalansen mellom innkommende solstråling og utgående varmestråling.
+Med de matematiske utrykkene vi har funnet, gir dette 
+
+$\pi$ $R^{2}$ $S$ = $\sigma$ $T^4$ 4$\pi$ $R^2$. Når vi løser dette med hensyn på $T$, får vi 
+
+$$\(T = \left(\frac{\frac{1/4}T}{\sigma}\right)^{1/4}\). $$
 
 
 
