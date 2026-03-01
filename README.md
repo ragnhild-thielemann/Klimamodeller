@@ -142,11 +142,14 @@ fører til en økning i jordens likevektstemperatur.
 
 Modellen predikerer dermed at en økning i konsentrasjonen av drivhusgasser – som effektivt reduserer den utgående strålingen til verdensrommet – vil føre til en økning i jordens temperatur.
 
+### Kort om forskjellen på strålingsintensiteten til innkommende stråling og utgående stråling
 
 
+Jorden varmes opp av innkommende kortbølget med høyfrekvent solstråling (ultrafiolett stråling med en bølgelengde på mindre enn 0.4 $\mu\$ m). 
 
-Jorden varmes opp av innkommende ultrafiolett solstråling (bølgelengde på mindre enn 0.4 $\mu\$ m), og sender deretter ut energi i form av infrarød varmestråling (bølgelengde 
-bølgelengde 3 - 100 $\mu\$ m)).
+Etter å ha absorbert denne energien, sender jorden selv ut infrarød varmestråling, som er langbølget og har lavere frekvens (bølgelengde mellom 3 og 100 $\mu\$ m). 
 
-heiehei
+Forskjellen i bølgelengde og energi har stor betydning for hvordan strålingen samhandler med atmosfæren. Den kortbølgede solstrålingen passerer i stor grad gjennom atmosfæren og når jordoverflaten. Den langbølgede infrarøde strålingen som sendes ut fra jorden, absorberes derimot lettere av drivhusgasser i atmosfæren.
+
+Dette gjør at en betydelig del av den utgående varmestrålingen ikke slipper direkte ut i verdensrommet, men i stedet holdes tilbake og delvis sendes tilbake mot jordoverflaten. Denne mekanismen er selve grunnlaget for drivhuseffekten.
 
