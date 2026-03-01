@@ -1,5 +1,5 @@
 
-
 #%%
 
-print("hei")
+print("hei på deg")
+
