@@ -14,8 +14,8 @@ def f(T):
 
 T_verdier = np.linspace(250,350,1000)
 jordens_temperatur = 16 + 273
-plt.plot(T_verdier,f(T_verdier),color = "hotpink",label = "dT/dt")
-plt.scatter(jordens_temperatur, f(jordens_temperatur),marker = "*", s = 200,color = "yellow",edgecolor = "black")
+plt.plot(T_verdier,f(T_verdier),color = "hotpink",label = "f(T)")
+plt.scatter(jordens_temperatur, f(jordens_temperatur),marker = "*", s = 200,color = "yellow",edgecolor = "black", label = "(288,0)")
 plt.grid(True)
 plt.axhline(0, color='black', linewidth=1) # Vertikal linje (y-akse)
 plt.title("Endring i jordens temperatur som funksjon av temperatur")

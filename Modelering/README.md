@@ -25,5 +25,11 @@ $$C\frac{dT}{dt} = (1-\alpha) Q - \epsilon \sigma T^{4}.$$
 
 Dette gjenkjenner vi som en  $ordinary$ $differential$ $equation$ (ODE), der temperaturen $T$ er en funksjon av tiden $t$. Konstanten $C$ er Jordas varmekapasitet, som knytter tempeaturen til energitettheten. Konstanten C måles i Joule per Kelvin $\frac{J}{K}$
 
+![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/dT_dt1.png)
 
+I scriptet 
+![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Modelering/modelering_av_differensiallikningen.py) modelerer vi plottet vist ovenfor, med en $\epsilon$ = 0.60. Den vertikale aksen viser hastigheten som temperaturen endrer seg med, altså $\frac{dT}{dt} . Den angir hvor raskt jordens temperatur øker eller synker som følge av en energiu-balanse.
 
+Vi observerer også det stjernemerkede punktet, som markerer nullpunktet til f(T), altså når endringen i temperaturen er lik 0. Dette er likevektstemperaturen, der den innkommende og utgående energien balanserer hverandre (det vi i tidligere oppgaver så på som termisk likevekt, der $\E_{inn}$ = $\E_{ut}$ . Verdien tilsvarer den samme løsningen som tidligere i oppgaven, T = 288 K, og representerer jordens nåværende klimastatus. 
+
+Av figuren ser vi at ved høyere temperaturer enn 288 K vil f(T) være negativ. Dermed vil temperaturendringen (\frac{dT}{dt})være negativ, så tempeaturen vil stablisere seg mot likevekten på 288 K. Tilsvarende ser vi at ved lavere tempeaturer, vil \frac{dT}{dt} være positiv, så tempraturen vil øke, til den stabiliserer seg på 288 K. 
