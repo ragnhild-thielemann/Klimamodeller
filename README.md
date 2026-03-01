@@ -8,12 +8,10 @@ Vi tar utgangpunkt i notatet [Flath & Co: "Energy Balance Models"](https://www.u
 ## Den enkleste klimamodellen
 
 
-I den enkleste klimamodellen anser vi jorden som et svart legeme. Dette betyr at den absorberer all innkommende stråling som treffer overflaten. Når vi vidrere i notatet utvider modellen, vil vi legge til parametern albedo $\alpha$, slik at vi tar hensyn til at jordoverflaten reflekterer innkommen strålign. 
+![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/energibalanse.png)
 
-Jorden varmes opp av innkommende ultrafiolett solstråling (bølgelengde på mindre enn 0.4 $\mu\$ m), og sender deretter ut energi i form av infrarød varmestråling (bølgelengde 
-bølgelengde 3 - 100 $\mu\$ m)).
-
-Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illustert under.
+Energibalansen viser hvor mye energi som kommer inn mot og sendes ut fra jordoverflata. Omtrent halvparten av den innkommende energien fra sola reflekteres eller tas opp i atmosfæren, mens den resterende delen,når jordoverflaten og bidrar til å varme opp bakken og havene. I første del av å bygge opp klimamodellen vår, tar vi imidlertid utgangspunkt i jorda som et sort legme, så vi antar at den absorberer all innkommen stråling. 
+ Når vi vidrere i teksten utvider modellen, vil vi legge til parametern albedo $\alpha$, slik at vi tar hensyn til at jordoverflaten reflekterer noe av den innkommende strålingen. 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/utg%C3%A5ende%20str%C3%A5ling.png)
 
 
@@ -73,3 +71,10 @@ Med de numeriske verdiene vi jobber med, får vi da
 $$T = \left(\frac{1376.6/4}{5.67*10^{-8}}\right)^{1/4}\. $$ = 276.6 $K$. Dette tilsvarer rundt 5.5 grader Celsius. 
 
 
+
+
+
+I den enkleste klimamodellen anser vi jorden som et svart legeme. Dette betyr at den absorberer all innkommende stråling som treffer overflaten.
+
+Jorden varmes opp av innkommende ultrafiolett solstråling (bølgelengde på mindre enn 0.4 $\mu\$ m), og sender deretter ut energi i form av infrarød varmestråling (bølgelengde 
+bølgelengde 3 - 100 $\mu\$ m)).
