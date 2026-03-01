@@ -37,7 +37,7 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 Jorda sett fra sola vil være en disk (se illutrasjonen ovenfor. Jordas areal, sett fra sola treffer vil derfor være gitt ved A = $\pi$ $R^{2}$. 
 Energifluksen fra sola er gitt ved $S$, slik at total innkommen energi fra sola vil være gitt ved
 
-Innkommen energi(W)= $E_{\text{in}}$ = $A_{\text{jorda}}$ $S$ = $\pi$$R^{2}$$S$
+Innkommen energi(W)= $E_{\text{in}}$ = $A_{\text{jorda}}$ $S$ = $\pi$ $R^{2}$ $S$
 
 Den totale innkommende energien treffer jordens overflate som vist i illustrasjonen ovenfor. En del av strålingen reflekteres tilbake til verdensrommet, mens resten absorberes av jordoverflaten – omtrent 50 %. Denne absorbert energien varmer opp jordkloden og er grunnlaget for den termiske energien som senere sendes ut som varmestråling.
 
@@ -47,11 +47,15 @@ Alle fysiske legemer emitterer energi i form av elektromagnetisk stråling, og d
 For et ideelt svart legeme (som vi i denne enkle modellen anser jorda for å være) beskrives denne sammenhengen av Stefan–Boltzmanns lov, som angir at strålingsfluksen er proporsjonal med den fjerde potens av temperaturen, 
 uttrykt som 
 
+
 $$F_{\mathrm{SB}}(T)=\sigma T^4$$, der $\sigma$  er Stefan–Boltzmanns konstant. 
 
 Når denne loven anvendes på Jorden, tar man utgangspunkt i at planetens totale overflateareal er A = 4
 $\pi$ $R^{2}$ (altså overflaten til en kule). Dette innebærer at den samlede energien Jorden stråler ut til verdensrommet, forutsatt at den oppfører seg som et tilnærmet svart legeme, kan beskrives ved uttrykket E_{\mathrm{out}}=4\pi R^2\sigma T^4. 
 
+$$E_{\text{ut}} = A_{\text{jorda}}
+F_{\mathrm{SB}}(T) = \sigma T^4 4\pi R^2
+$$
 
 
 Denne relasjonen danner et grunnleggende element i enkle klimamodeller, ettersom den kobler planetens temperatur direkte til dens evne til å kvitte seg med energi, og dermed inngår i vurderingen av energibalansen mellom innkommende solstråling og utgående varmestråling.
