@@ -33,16 +33,15 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/flat_jord.png)
 
 ### Bygge modellen
-
+#### Innkommen energi
 Jorda sett fra sola vil være en disk (se illutrasjonen ovenfor. Jordas areal, sett fra sola treffer vil derfor være gitt ved A = $\pi$ $R^{2}$. 
 Energifluksen fra sola er gitt ved $S$, slik at total innkommen energi fra sola vil være gitt ved
-$$
-Innkommen energi (W) = E_{\text{in}} = A_{\text{jorda}} \cdot S = \pi R^2 S
-$$
+
+Innkommen energi (W) = $E_{\text{in}}$ = $A_{\text{jorda}}$ $\cdot$ $S$ = $\pi$ $R^{2}$ $S$
 
 Den totale innkommende energien treffer jordens overflate som vist i illustrasjonen ovenfor. En del av strålingen reflekteres tilbake til verdensrommet, mens resten absorberes av jordoverflaten – omtrent 50 %. Denne absorbert energien varmer opp jordkloden og er grunnlaget for den termiske energien som senere sendes ut som varmestråling.
 
-
+#### Utgående energi
 Alle fysiske legemer emitterer energi i form av elektromagnetisk stråling, og den totale strålingsmengden øker med legemets temperatur. Da jorda har blitt varmet opp av den innkommende solstrålingen, vil den derfor skille ut termisk energi. 
 
 For et ideelt svart legeme (som vi i denne enkle modellen anser jorda for å være) beskrives denne sammenhengen av Stefan–Boltzmanns lov, som angir at strålingsfluksen er proporsjonal med den fjerde potens av temperaturen, 
@@ -50,7 +49,12 @@ uttrykt som
 
 $$F_{\mathrm{SB}}(T)=\sigma T^4$$, der $\sigma$  er Stefan–Boltzmanns konstant. 
 
-Når denne loven anvendes på Jorden, tar man utgangspunkt i at planetens totale overflateareal er 4\pi R^2. Dette innebærer at den samlede energien Jorden stråler ut til verdensrommet, forutsatt at den oppfører seg som et tilnærmet svart legeme, kan beskrives ved uttrykket E_{\mathrm{out}}=4\pi R^2\sigma T^4. Denne relasjonen danner et grunnleggende element i enkle klimamodeller, ettersom den kobler planetens temperatur direkte til dens evne til å kvitte seg med energi, og dermed inngår i vurderingen av energibalansen mellom innkommende solstråling og utgående varmestråling.
+Når denne loven anvendes på Jorden, tar man utgangspunkt i at planetens totale overflateareal er A = 4
+$\pi$ $R^{2}$ (altså overflaten til en kule). Dette innebærer at den samlede energien Jorden stråler ut til verdensrommet, forutsatt at den oppfører seg som et tilnærmet svart legeme, kan beskrives ved uttrykket E_{\mathrm{out}}=4\pi R^2\sigma T^4. 
+
+
+
+Denne relasjonen danner et grunnleggende element i enkle klimamodeller, ettersom den kobler planetens temperatur direkte til dens evne til å kvitte seg med energi, og dermed inngår i vurderingen av energibalansen mellom innkommende solstråling og utgående varmestråling.
 
 
 
