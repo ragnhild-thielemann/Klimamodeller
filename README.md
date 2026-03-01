@@ -108,6 +108,7 @@ ren)
 
 Vi legger til den nye parameteren i utrykkene for innkommende og utgående stråling, som gir: 
 
+
 $E_{\text{in}}$ =  $\pi$ $R^{2}$ $S$ (1- $\alpha$ ) 
 
 
@@ -119,7 +120,7 @@ Igjen løser vi for temperaturen $T$, som gir
 
 $$T = \left(\frac{\frac{1}{4}S \cdot (1-\alpha)}{\sigma \epsilon}\right)^{1/4}\. $$ 
 
-Når vi prøver oss frem med numeriske verdier, ser vi at en $\epsilon$ = 0.66 gir en likeveksttempeatur på $$T_{\text{1}}$$ = 288 $K$. 
+Når vi prøver oss frem med numeriske verdier, ser vi at en $\epsilon$ = 0.66 gir en likeveksttempeatur på $$T_{\text{1}}$$ = 288 $K$ , som tilsvarer jordas likevektstempeatur på 16 grader. 
 
 En avtakende verdi av parameteren $\epsilon$ (som kommer av økt andel drivhusgasser i atmosfæren)
 fører til en økning i jordens likevektstemperatur.
