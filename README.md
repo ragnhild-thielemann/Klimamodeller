@@ -58,16 +58,17 @@ F_{\mathrm{SB}}(T) = \sigma T^4 4\pi R^2
 $$
 
 Dersom den innkommende strålignen er større enn den utgående, vil temperaturen på  jorda øke. Motsatt, dersom innkommende energi er lavere enn energien jorda sender ut, vil temepaturen avta. Likvekten, der 
-$$E_{\text{inn}} = E_{\text{ut}}$$ er der temperaturen holdes konstnat, og omtales gjerne som $termisk$ $likevekt$
+$$E_{\text{inn}} = E_{\text{ut}}$$ er der temperaturen holdes konstnat, og omtales gjerne som $termisk$  $likevekt$
 
 Med de matematiske utrykkene vi har funnet, gir dette 
 
-$\pi$ $R^{2}$ $S$ = $\sigma$ $T^4$ 4 $\pi$ $R^2$. Når vi løser dette med hensyn på $T$, får vi 
+$\pi$ $R^{2}$ $S$ = $\sigma$ $T^4$ 4 $\pi$ $R^2$. 
+Når vi løser dette med hensyn på $T$, får vi 
 
-$$\T = \left(\frac{\frac{S/4}}{\sigma}\right)^{1/4}\. $$ 
+$$\T = \left(\frac{S/4}{\sigma}\right)^{1/4}\. $$ 
 
 Med de numeriske verdiene vi jobber med, har vi da 
 
-$$\T = \left(\frac{\frac{1376.6/4}}{\5.67*10^(-8)}\right)^{1/4}\. $$ = 276.6 $K$. Dette tilsvarer rundt 5.5 grader Celsius. 
+$$\T = \left(\frac{1376.6/4}{\5.67*10^(-8)}\right)^{1/4}\. $$ = 276.6 $K$. Dette tilsvarer rundt 5.5 grader Celsius. 
 
 
