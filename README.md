@@ -36,8 +36,8 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 
 Jorda sett fra sola vil være en disk (se illutrasjonen ovenfor. Jordas areal, sett fra sola treffer vil derfor være gitt ved A = $\pi$ $R^{2}$. 
 Energifluksen fra sola er gitt ved $S$, slik at innkommen energi vil være gitt ved 
-$$\E_{\text{in}} = A{\text{jorda}*fluks = \pi$ R^2 S
-$$
+$\E_{\text{in}}$ = $\A{\text{jorda}$*fluks = $\pi$ $R^{2}$ S
+
 
 
 
