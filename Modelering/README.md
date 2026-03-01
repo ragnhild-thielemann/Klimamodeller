@@ -1,5 +1,5 @@
 
-
+# Mot en varmere normaltilstand
 ## Behovet for en dynamisk modell
 
 I første del av oppgaven analyserte vi temperaturer under betingelsen $E_{\text{inn}}$ = $E_{\text{ut}}$ , altså situasjoner med termisk likevekt. Vi undersøkte da hvilken temperatur som oppstår når den innkommende og utgående energien er i balanse. 
@@ -26,24 +26,29 @@ $$C\frac{dT}{dt} = (1-\alpha) Q - \epsilon \sigma T^{4}.$$
 Dette gjenkjenner vi som en  $ordinary$ $differential$ $equation$ (ODE), der temperaturen $T$ er en funksjon av tiden $t$. Konstanten $C$ er Jordas varmekapasitet, som knytter tempeaturen til energitettheten. Konstanten C måles i Joule per Kelvin $\frac{J}{K}$
 ### Dagens nivå for klimagasser i atmosfæren
 
-#### $\epsilon = 0.6
+#### $\epsilon$ = 0.6
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/dT_dt1.png)
 
 I scriptet 
-![modelering_av_differensiallikningen.py](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Modelering/modelering_av_differensiallikningen.py) modelerer vi plottet vist ovenfor, med en $\epsilon$ = 0.60. Den vertikale aksen viser hastigheten som temperaturen endrer seg med, altså $\frac{dT}{dt} $ . Den angir hvor raskt jordens temperatur øker eller synker som følge av en energiu-balanse.
+[modelering_av_differensiallikningen.py](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Modelering/modelering_av_differensiallikningen.py) modelerer vi plottet vist ovenfor, med en $\epsilon$ = 0.60. Den vertikale aksen viser hastigheten som temperaturen endrer seg med, altså $\frac{dT}{dt}$ . Den angir hvor raskt jordens temperatur øker eller synker som følge av en energiu-balanse.
 
-Vi observerer også det stjernemerkede punktet, som markerer nullpunktet til f(T), altså når endringen i temperaturen er lik 0. Dette er likevektstemperaturen, der den innkommende og utgående energien balanserer hverandre (det vi i tidligere oppgaver så på som termisk likevekt, der $E_{inn}$ = $E_{ut}$ . Verdien tilsvarer den samme løsningen som tidligere i oppgaven, T = 288 K, og representerer jordens nåværende klimastatus. 
+Vi observerer også det stjernemerkede punktet, som markerer nullpunktet til $f(T)$, altså når endringen i temperaturen er lik 0. Dette er likevektstemperaturen, der den innkommende og utgående energien balanserer hverandre (det vi i tidligere oppgaver så på som termisk likevekt, der $E_{inn}$ = $E_{ut}$ . Verdien tilsvarer den samme løsningen som tidligere i oppgaven, T = 288 K, og representerer jordens nåværende klimastatus. 
 
-Av figuren ser vi at f(T) er negativ når temperaturen (K) er høyere enn 288 K.
+Av figuren ser vi at $f(T)$ er negativ når temperaturen (K) er høyere enn 288 K.
 Dermed vil temperaturendringen ($\frac{dT}{dt}$)være negativ, så tempeaturen vil avta mot likevekten på 288 K. Tilsvarende ser vi at ved lavere tempeaturer enn 288 K, vil $\frac{dT}{dt}$ være positiv, så tempraturen vil øke, til den stabiliserer seg på 288 K. 
 
 
 ### Endring i nivået for klimagasser i atmosfæren
 
-Dersom vi reduserer verdien til parameteren epsilon $\epsilon$ , ved å øke nivået av klimagasser i atmosfæren vil vi få et nytt utrykk for $f(T)$. I ![ulike_verdier_for_epsilon.py](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Modelering/ulike_verdier_for_epsilon.py) reduserer vi verdiene til $\epsilon$ = 0.5. 
+Dersom vi reduserer verdien til parameteren epsilon $\epsilon$ , ved å øke nivået av klimagasser i atmosfæren vil vi få et nytt utrykk for $f(T)$. I [ulike_verdier_for_epsilon.py](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Modelering/ulike_verdier_for_epsilon.py) reduserer vi verdiene til $\epsilon$ = 0.5. 
 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/to_verdier_for_epsilon.png)
 
-Selv om den matematiske strukturen til $f(T)$, da det er den samme differensiallikningen som i det første plottet, forskyves grafen oppover. Det betyr at temperaturen må bli høyere før utstrålingen balanserer innstrålingen. ($E_{inn}$ = $E_{ut}$). Likevekten oppstår fortsatt der $f(T)$ = 0, men dette skjer nå ved en høyere temperatur.
+Selv om den matematiske strukturen til $f(T)$, da det er den samme differensiallikningen som i det første plottet, forskyves grafen oppover.
 
-At den nye likevektstemperaturen er omtrent 303 K (30 °C) viser at selv en moderat reduksjon i $\epsilon$ kan gi en betydelig temperaturøkning. Dette illustrerer hvor sensitivt klimasystemet er for endringer i drivhuseffekten.
+Når vi reduserer parameteren $\epsilon$ , modellerer vi en sterkere drivhuseffekt. Det betyr at atmosfæren slipper ut mindre varmestråling, og jorda mister energi saktere enn før. Resultatet er at systemet får et positivt energioverskudd ved den gamle likevektstemperaturen.
+
+Energibalansen vil derfor jobbe mot en høyere likevektstemperatur. Så lenge innstrålt energi er større enn utstrålt energi (altså $f(T)$ > 0), vil temperaturen fortsette å øke. Temperaturen stiger helt til utstrålingen igjen er stor nok til å balansere innstrålingen. Først da får vi en ny likevekt der $f(T)$ = 0, eller $E_{inn}$ = $E_{ut}$
+
+I dette tilfellet skjer det ved omtrent 303 K (30 °C). Det betyr at systemet fortsatt søker mot balanse, men balansepunktet er forskjøvet til et høyere temperaturnivå. 
+### Med andre ord: klimaet stabiliserer seg, men rundt en varmere normaltilstand.
