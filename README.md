@@ -17,7 +17,7 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 
 ## Utgående varmestråling fra jorden
 
-#### Enheter vi bruker
+#### Enheter 
 - Lengde, meter (m)
 - Energi, watt (W); 1 watt = 1 joule per sekund
 - Temperatur, Kelvin (K): Et objekt som holder 0 $K$ befinner seg på det absolutte nullpunkt, og har dermed ingen termisk energi. Kelvin-skalaen starter altså ved det absolutte nullpunktet, som representerer den lavest mulige temperaturen i naturen.
@@ -34,9 +34,9 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 
 ### Bygge modellen
 
-Jorda sett fra sola vil være en disk (se illutrasjonen ovenfor. Jordas areal, sett fra sola treffer vil derfor være gitt ved $\pi$ $R^{2}$. 
-$$\. Energifluksen fra sola er gitt ved $S$, slik at innkommen energi vil være gitt ved 
-E_{\text{in}} = A{\text{jorda}*fluks = $\pi$ $R^2$ S
+Jorda sett fra sola vil være en disk (se illutrasjonen ovenfor. Jordas areal, sett fra sola treffer vil derfor være gitt ved A = $\pi$ $R^{2}$. 
+Energifluksen fra sola er gitt ved $S$, slik at innkommen energi vil være gitt ved 
+$$\E_{\text{in}} = A{\text{jorda}*fluks = \pi$ R^2 S
 $$
 
 
