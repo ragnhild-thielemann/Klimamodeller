@@ -87,13 +87,14 @@ Igjen løser vi
 $$E_{\text{inn}} = E_{\text{ut}}$$ for å finne termisk likevekt. Når vi løser dette med hensyn på $T$, slik at vi får temperaturen jorden stabiliserer seg på, får vi 
 
 
-$$T = \left(\frac{\frac{1}{4}S(1-\alpha)}{\sigma}\right)^{1/4}\. $$ 
+$$T = \left(\frac{\frac{1}{4}S \cdot (1-\alpha)}{\sigma}\right)^{1/4}\. $$ 
 
 Når vi setter inn de numeriske verdiene og parametere får vi:
 
-$$T = \left(\frac{\frac{1}{4}1467.6 \cdot 0.7}{5.68 10^{-8}}\right)^{1/4}\. $$ 
+$$T = \left(\frac{\frac{1}{4} \cdot 1367.6 \cdot 0.7}{5.68 \cdot10^{-8}}\right)^{1/4}\. $$ = 254.9 K = -19 C. 
 
-I den enkleste klimamodellen anser vi jorden som et svart legeme. Dette betyr at den absorberer all innkommende stråling som treffer overflaten.
+Til tross for at modellen nå inkluderer en ekstra parameter som gjør den mer realistisk, ser vi at temperaturanslaget beveger seg enda lenger bort fra den observerte middeltemperaturen på 16 grader. Dette viser at albedo $\alpha$ alene ikke er derfor ikke nok til å forklare Jordens faktiske temperatur, og at viktige prosesser fortsatt mangler i modellen. 
+
 
 Jorden varmes opp av innkommende ultrafiolett solstråling (bølgelengde på mindre enn 0.4 $\mu\$ m), og sender deretter ut energi i form av infrarød varmestråling (bølgelengde 
 bølgelengde 3 - 100 $\mu\$ m)).
