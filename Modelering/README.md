@@ -2,7 +2,7 @@
 
 ## Behovet for en dynamisk modell
 
-I første del av oppgaven analyserte vi temperaturer under betingelsen $E_{\text{inn}$ = $E_{\text{ut}$ , altså situasjoner med termisk likevekt. Vi undersøkte da hvilken temperatur som oppstår når den innkommende og utgående energien er i balanse. 
+I første del av oppgaven analyserte vi temperaturer under betingelsen $$E_{\text{inn}$$ = $E_{\text{ut}$ , altså situasjoner med termisk likevekt. Vi undersøkte da hvilken temperatur som oppstår når den innkommende og utgående energien er i balanse. 
 Når vi nå videreutvikler modellen, ser vi på hva som skjer dersom $E_{\text{inn}$ $\neq$ $E_{\text{ut}$. 
 
 
