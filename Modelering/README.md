@@ -19,8 +19,8 @@ Den enkleste formen for en dynamisk modell for temperaturendringene, er at tempe
 
 $$\frac{dT}{dt} = k (E_{\text{inn}} -E_{\text{ut}})$$
 
-Med utrykkene for $E_{\text{inn}}$ og $E_{\text{ut}}$ vi utledet i første del av oppgaven. For å gjøre utrykket enklere å jobbe med, setter vi parametern Q = $\frac{1}{4} S$ , samt dividerer hele utrykket på $\pi$ $R^{2}$. Dette gir følgene $temperature$ $evolution$ $equation$, eller temperaturutviklingslikning, i mangel på et bedre norsk ord. 
+Vi bruker utrykkene for $E_{\text{inn}}$ og $E_{\text{ut}}$ vi utledet i første del av oppgaven. For å gjøre utrykket enklere å jobbe med, setter vi parametern Q = $\frac{1}{4} S$ , samt dividerer hele utrykket på $\pi$ $R^{2}$. Dette gir følgene $temperature$ $evolution$ $equation$, eller temperaturutviklingslikning, i mangel på et bedre norsk ord. 
 
-$$C_\frac{dT}{dt} = (1-\alpha) Q - \epsilon \sigma T^{4}.
+$$C_\frac{dT}{dt} = (1-\alpha) Q - \epsilon \sigma T^{4}.$$
 
 
