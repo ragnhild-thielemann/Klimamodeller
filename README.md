@@ -13,11 +13,24 @@ Jorden varmes opp av innkommende ultrafiolett solstråling (bølgelengde på min
 bølgelengde 3 - 100 $\mu\$ m)).
 
 Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illustert under.
-![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/utgående_ stråling.png)
+![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/utg%C3%A5ende%20str%C3%A5ling.png)
 
 
 
-E(in) = $\pi$  $\R^{2}$S
+$$\
+E_{\text{in}} = \pi R^2 S
+$$
+
+
+| Parameter | Forklaring | Verdi|
+|-----------|-------|------|
+| $R$   | Jordens radius |6371 $10^{3}$ m  |
+| $S$  | Energitettheten fra Sola. Energitettheten er definert som mengden energi som kommer gjennom et areal på 1 $\m^{2}$. For innkommen solenergi er dette  | 1367.7 $\Wm^{-2}|
+| $\sigma$  | Stefan–Boltzmann konstant | 5.67 $\10^{-8}|
+| $\lambda_1$ | 0.33 |
+| $\lambda_2$ | 0.5  |
+| $p_a$    | 0.4   |
+| $\mu$    | 0.2   |
 
 Deler av denne stråligen blir absorbert av jordoverflaten, som da blir varmet opp. Da vi anser jorda som et svart legme, vil den reflektere ut varmestråling, gitt ved 
 
