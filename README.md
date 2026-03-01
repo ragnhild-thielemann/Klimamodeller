@@ -1,12 +1,14 @@
 # Klimamodeller
-Beskrivelse av klimamodeller i MAT1020
 
 # Innledning
-Vi tar utgangpunkt i notatet [Flath & Co: "Energy Balance Models"](https://www.uio.no/studier/emner/matnat/math/MAT1020/v26/mat1020flatharticle.pdf). 
 
 Energibalansemodeller representerer en sentral og klassisk tilnærming innen klimafysikk. De bygger på fundamentale fysiske lover, særlig strålingsfysikk og Stefan–Boltzmanns lov, og gir en matematisk beskrivelse av hvordan jorden oppnår en likevekt mellom absorbert og utstrålt energi. Til tross for at modellene er sterkt forenklede – ved at jorden behandles som et svart legeme og komplekse prosesser i atmosfære, hav og biosfære utelates – gir de viktig innsikt i de grunnleggende mekanismene bak drivhuseffekten og klimafølsomhet.
 
 Oppgaven vil kombinere matematisk modellering med klimafaglig drøfting. Vi vil undersøke hvordan endringer i sentrale parametere, som albedo og effektiv emissivitet, påvirker systemets likevekt, og diskutere hvilke styrker og begrensninger som ligger i denne typen modeller. På denne måten søker vi å belyse hvordan enkle matematiske strukturer kan bidra til forståelsen av komplekse klimaprosesser.
+
+Oppgaven innledes med en svært forenklet klimamodell, der jorden behandles som et svart legeme og kun den grunnleggende energibalansen mellom innkommende og utgående stråling analyseres. Deretter utvides modellen trinnvis ved først å inkludere albedoeffekten, som beskriver hvor stor andel av solstrålingen som reflekteres tilbake til verdensrommet. Til slutt innarbeides drivhuseffekten, som tar hensyn til atmosfærens evne til å absorbere og reemittere infrarød stråling.
+
+Oppgaven tar utgangspunkt i notatet [Flath & Co: "Energy Balance Models"](https://www.uio.no/studier/emner/matnat/math/MAT1020/v26/mat1020flatharticle.pdf). 
 
 # Modelering av klimamodeller
 ## 1 - Jorden som et svart legme
@@ -98,6 +100,33 @@ Når vi setter inn de numeriske verdiene og parametere får vi:
 $$T = \left(\frac{\frac{1}{4} \cdot 1367.6 \cdot 0.7}{5.68 \cdot10^{-8}}\right)^{1/4}\. $$ = 254.9 K = -19 C. 
 
 Til tross for at modellen nå inkluderer en ekstra parameter som gjør den mer realistisk, ser vi at temperaturanslaget beveger seg enda lenger bort fra den observerte middeltemperaturen på 16 grader. Dette viser at albedo $\alpha$ alene ikke er derfor ikke nok til å forklare Jordens faktiske temperatur, og at viktige prosesser fortsatt mangler i modellen. 
+
+## 3 - Drivhuseffekten
+
+Vi legger nå til en ny parameter $\epsilon$ , som betegner drifhuseffekten. Dette er en konstant (0 < $\epsilon$ < 1), som måler hvor mye av den utgående stråligen fra jorda som absorberes av atmosfæren. En lav verdi for $\epsilon$ tilsvarer en høy andel drivhusgasser i atmorfæren (da en liten andel av den utgående strålingen fra jorda slipper gjennom atmosfæ
+ren)
+
+Vi legger til den nye parameteren i utrykkene for innkommende og utgående stråling, som gir: 
+
+$E_{\text{in}}$ =  $\pi$ $R^{2}$ $S$ (1- $\alpha$ ) 
+
+
+ $$E_{\text{ut}} 
+ = 4\pi R^2 \epsilon \sigma T^4  
+$$
+
+Igjen løser vi for temperaturen $T$, som gir 
+
+$$T = \left(\frac{\frac{1}{4}S \cdot (1-\alpha)}{\sigma \epsilon}\right)^{1/4}\. $$ 
+
+Når vi prøver oss frem med numeriske verdier, ser vi at en $\epsilon$ = 0.66 gir en likeveksttempeatur på $$T_{\text{1}}$$ = 288 $K$. 
+
+En avtakende verdi av parameteren $\epsilon$ (som kommer av økt andel drivhusgasser i atmosfæren)
+fører til en økning i jordens likevektstemperatur.
+
+Modellen predikerer dermed at en økning i konsentrasjonen av drivhusgasser – som effektivt reduserer den utgående strålingen til verdensrommet – vil føre til en økning i jordens temperatur.
+
+
 
 
 Jorden varmes opp av innkommende ultrafiolett solstråling (bølgelengde på mindre enn 0.4 $\mu\$ m), og sender deretter ut energi i form av infrarød varmestråling (bølgelengde 
