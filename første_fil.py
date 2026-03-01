@@ -33,5 +33,3 @@ plt.legend()
 
 
 plt.show()
-
-print(-273+254 )

@@ -37,3 +37,13 @@ Vi observerer også det stjernemerkede punktet, som markerer nullpunktet til f(T
 Av figuren ser vi at f(T) er negativ når temperaturen (K) er høyere enn 288 K.
 Dermed vil temperaturendringen ($\frac{dT}{dt}$)være negativ, så tempeaturen vil avta mot likevekten på 288 K. Tilsvarende ser vi at ved lavere tempeaturer enn 288 K, vil $\frac{dT}{dt}$ være positiv, så tempraturen vil øke, til den stabiliserer seg på 288 K. 
 
+
+### Endring i nivået for klimagasser i atmosfæren
+
+Dersom vi reduserer verdien til parameteren epsilon $\epsilon$ , ved å øke nivået av klimagasser i atmosfæren vil vi få et nytt utrykk for $f(T)$. I ![ulike_verdier_for_epsilon.py](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Modelering/ulike_verdier_for_epsilon.py) reduserer vi verdiene til $\epsilon$ = 0.5. 
+
+![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/to_verdier_for_epsilon.png)
+
+Selv om den matematiske strukturen til $f(T)$, da det er den samme differensiallikningen som i det første plottet, forskyves grafen oppover. Det betyr at temperaturen må bli høyere før utstrålingen balanserer innstrålingen. ($E_{inn}$ = $E_{ut}$). Likevekten oppstår fortsatt der $f(T)$ = 0, men dette skjer nå ved en høyere temperatur.
+
+At den nye likevektstemperaturen er omtrent 303 K (30 °C) viser at selv en moderat reduksjon i $\epsilon$ kan gi en betydelig temperaturøkning. Dette illustrerer hvor sensitivt klimasystemet er for endringer i drivhuseffekten.
