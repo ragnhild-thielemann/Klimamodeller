@@ -5,6 +5,7 @@ Vi tar utgangpunkt i notatet [Flath & Co: "Energy Balance Models"](https://www.u
 
 
 # Modelering av klimamodeller
+## Den enkleste klimamodellen
 
 
 I den enkleste klimamodellen anser vi jorden som et svart legeme. Dette betyr at den absorberer all innkommende stråling som treffer overflaten. Når vi vidrere i notatet utvider modellen, vil vi legge til parametern albedo $\alpha$, slik at vi tar hensyn til at jordoverflaten reflekterer innkommen strålign. 
@@ -15,7 +16,6 @@ bølgelengde 3 - 100 $\mu\$ m)).
 Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illustert under.
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/utg%C3%A5ende%20str%C3%A5ling.png)
 
-## Utgående varmestråling fra jorden
 
 #### Enheter 
 - Lengde, meter (m)
@@ -35,7 +35,22 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 ### Bygge modellen
 
 Jorda sett fra sola vil være en disk (se illutrasjonen ovenfor. Jordas areal, sett fra sola treffer vil derfor være gitt ved A = $\pi$ $R^{2}$. 
-Energifluksen fra sola er gitt ved $S$, slik at innkommen energi vil være gitt ved $\E_{\text{in}}$= $\A{\text{jorda}$*$S$ = $\pi$ $R^{2}$ $S$
+Energifluksen fra sola er gitt ved $S$, slik at total innkommen energi fra sola vil være gitt ved
+$$
+Innkommen energi (W) = E_{\text{in}} = A_{\text{jorda}} \cdot S = \pi R^2 S
+$$
+
+Den totale innkommende energien treffer jordens overflate som vist i illustrasjonen ovenfor. En del av strålingen reflekteres tilbake til verdensrommet, mens resten absorberes av jordoverflaten – omtrent 50 %. Denne absorbert energien varmer opp jordkloden og er grunnlaget for den termiske energien som senere sendes ut som varmestråling.
+
+
+Alle fysiske legemer emitterer energi i form av elektromagnetisk stråling, og den totale strålingsmengden øker med legemets temperatur. Da jorda har blitt varmet opp av den innkommende solstrålingen, vil den derfor skille ut termisk energi. 
+
+For et ideelt svart legeme (som vi i denne enkle modellen anser jorda for å være) beskrives denne sammenhengen av Stefan–Boltzmanns lov, som angir at strålingsfluksen er proporsjonal med den fjerde potens av temperaturen, 
+uttrykt som 
+
+$$F_{\mathrm{SB}}(T)=\sigma T^4$$, der $\sigma$  er Stefan–Boltzmanns konstant. 
+
+Når denne loven anvendes på Jorden, tar man utgangspunkt i at planetens totale overflateareal er 4\pi R^2. Dette innebærer at den samlede energien Jorden stråler ut til verdensrommet, forutsatt at den oppfører seg som et tilnærmet svart legeme, kan beskrives ved uttrykket E_{\mathrm{out}}=4\pi R^2\sigma T^4. Denne relasjonen danner et grunnleggende element i enkle klimamodeller, ettersom den kobler planetens temperatur direkte til dens evne til å kvitte seg med energi, og dermed inngår i vurderingen av energibalansen mellom innkommende solstråling og utgående varmestråling.
 
 
 
