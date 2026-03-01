@@ -69,14 +69,14 @@ $$T = \left(\frac{\frac{1}{4}S}{\sigma}\right)^{1/4}\. $$
 
 Med de numeriske verdiene vi jobber med, får vi da 
 
-$$T = \left(\frac{1376.6/4}{5.67*10^{-8}}\right)^{1/4}\. $$ = 276.6 $K$. Dette tilsvarer rundt 5.5 grader Celsius. Da vi vet at jordas gjennomsnittstemperatur er på 16 grader Celsius, blir tempeaturestimatet med denne svært forenklede modellen alt for lavt. 
+$$T = \left(\frac{1376.6/4}{5.67*10^{-8}}\right)^{1/4}\. $$ = 276.6 $K$. Dette tilsvarer rundt 5.5 grader Celsius. 
 
 ## Verdi for albedo
 
 Når vi innfører albedo, $\alpha$ , tar vi hensyn til hvor stor andel av solstrålingen som faktisk absorberes av Jorden, og hvor mye som reflekteres tilbake til verdensrommet. En gjennomsnittlig global albedo på  0.3 innebærer at rundt 30% av den innkommende solenergien reflekteres, mens de resterende 70% absorberes av jordoverflaten. Dette gir oss et nytt utrykk for innkommende energi, mens utgående termisk energi fra jorda holdes konstant. 
 
 
-$E_{\text{in}}$ =  $\pi$ $R^{2}$ $S$ (1-$\alpha$) 
+$E_{\text{in}}$ =  $\pi$ $R^{2}$ $S$ (1- $\alpha$ ) 
 
 
  $$E_{\text{ut}} = A_{\text{jorda}}
@@ -91,7 +91,7 @@ $$T = \left(\frac{\frac{1}{4}S(1-\alpha)}{\sigma}\right)^{1/4}\. $$
 
 Når vi setter inn de numeriske verdiene og parametere får vi:
 
-$$T = \left(\frac{\frac{1}{4}1467.6*0.7}{5.68*10^{-8}}\right)^{1/4}\. $$ 
+$$T = \left(\frac{\frac{1}{4}1467.6 \cdot 0.7}{5.68 10^{-8}}\right)^{1/4}\. $$ 
 
 I den enkleste klimamodellen anser vi jorden som et svart legeme. Dette betyr at den absorberer all innkommende stråling som treffer overflaten.
 
