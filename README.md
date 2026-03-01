@@ -61,11 +61,11 @@ $$E_{\text{inn}} = E_{\text{ut}}$$ er der temperaturen holdes konstnat, og omtal
 
 Med de matematiske utrykkene vi har funnet, gir dette 
 
-$\pi$ $R^{2}$ $S$ = $\sigma$ $T^4$ 4 $\pi$ $R^2$. 
+$\pi$ $R^{2}$ $S$ = 4 $\sigma$ $T^4$ $\pi$ $R^2$. 
 
 Når vi løser dette med hensyn på temperaturen $T$, får vi 
 
-$$T = \left(\frac{S/4}{\sigma}\right)^{1/4}\. $$ 
+$$T = \left(\frac{\frac{1}{4}S}{\sigma}\right)^{1/4}\. $$ 
 
 Med de numeriske verdiene vi jobber med, får vi da 
 
@@ -76,7 +76,10 @@ $$T = \left(\frac{1376.6/4}{5.67*10^{-8}}\right)^{1/4}\. $$ = 276.6 $K$. Dette t
 Når vi innfører albedo, $\alpha$ , tar vi hensyn til hvor stor andel av solstrålingen som faktisk absorberes av Jorden, og hvor mye som reflekteres tilbake til verdensrommet. En gjennomsnittlig global albedo på  0.3 innebærer at rundt 30% av den innkommende solenergien reflekteres, mens de resterende 70% absorberes av jordoverflaten. Dette gir oss et nytt utrykk for innkommende energi, mens utgående termisk energi fra jorda holdes konstant. 
 
 
-$E_{\text{in}}$ =  $\pi$ $R^{2}$ $S$ (1-$\alpha$)  $$E_{\text{ut}} = A_{\text{jorda}}
+$E_{\text{in}}$ =  $\pi$ $R^{2}$ $S$ (1-$\alpha$) 
+
+
+ $$E_{\text{ut}} = A_{\text{jorda}}
 F_{\mathrm{SB}}(T) = \sigma T^4 4\pi R^2
 $$
 
@@ -84,8 +87,11 @@ Igjen løser vi
 $$E_{\text{inn}} = E_{\text{ut}}$$ for å finne termisk likevekt. Når vi løser dette med hensyn på $T$, slik at vi får temperaturen jorden stabiliserer seg på, får vi 
 
 
-$$T = \left(\frac{\frac{S(1-\alpha}{4}}{\sigma}\right)^{1/4}\. $$ 
+$$T = \left(\frac{\frac{1}{4}S(1-\alpha)}{\sigma}\right)^{1/4}\. $$ 
 
+Når vi setter inn de numeriske verdiene og parametere får vi:
+
+$$T = \left(\frac{\frac{1}{4}1467.6*0.7}{5.68*10^{-8}}\right)^{1/4}\. $$ 
 
 I den enkleste klimamodellen anser vi jorden som et svart legeme. Dette betyr at den absorberer all innkommende stråling som treffer overflaten.
 
