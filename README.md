@@ -1,11 +1,15 @@
 # Klimamodeller
 Beskrivelse av klimamodeller i MAT1020
 
-Vi tar utgangpunkt i notatet [Flath & Co: "Energy Balance Models"](https://www.uio.no/studier/emner/matnat/math/MAT1020/v26/mat1020flatharticle.pdf). Denne oppgaven vil være drøftinger og refleksjoner rundt klimamodellene som bygges vises frem i notatet. 
+# Innledning
+Vi tar utgangpunkt i notatet [Flath & Co: "Energy Balance Models"](https://www.uio.no/studier/emner/matnat/math/MAT1020/v26/mat1020flatharticle.pdf). 
 
+Energibalansemodeller representerer en sentral og klassisk tilnærming innen klimafysikk. De bygger på fundamentale fysiske lover, særlig strålingsfysikk og Stefan–Boltzmanns lov, og gir en matematisk beskrivelse av hvordan jorden oppnår en likevekt mellom absorbert og utstrålt energi. Til tross for at modellene er sterkt forenklede – ved at jorden behandles som et svart legeme og komplekse prosesser i atmosfære, hav og biosfære utelates – gir de viktig innsikt i de grunnleggende mekanismene bak drivhuseffekten og klimafølsomhet.
+
+Oppgaven vil kombinere matematisk modellering med klimafaglig drøfting. Vi vil undersøke hvordan endringer i sentrale parametere, som albedo og effektiv emissivitet, påvirker systemets likevekt, og diskutere hvilke styrker og begrensninger som ligger i denne typen modeller. På denne måten søker vi å belyse hvordan enkle matematiske strukturer kan bidra til forståelsen av komplekse klimaprosesser.
 
 # Modelering av klimamodeller
-## Jorden som et svart legme
+## 1 - Jorden som et svart legme
 
 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/energibalanse.png)
@@ -71,7 +75,7 @@ Med de numeriske verdiene vi jobber med, får vi da
 
 $$T = \left(\frac{1376.6/4}{5.67*10^{-8}}\right)^{1/4}\. $$ = 276.6 $K$. Dette tilsvarer rundt 5.5 grader Celsius. 
 
-## Verdi for albedo
+## 2- Verdi for albedo
 
 Når vi innfører albedo, $\alpha$ , tar vi hensyn til hvor stor andel av solstrålingen som faktisk absorberes av Jorden, og hvor mye som reflekteres tilbake til verdensrommet. En gjennomsnittlig global albedo på  0.3 innebærer at rundt 30% av den innkommende solenergien reflekteres, mens de resterende 70% absorberes av jordoverflaten. Dette gir oss et nytt utrykk for innkommende energi, mens utgående termisk energi fra jorda holdes konstant. 
 
