@@ -37,7 +37,7 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 Jorda sett fra sola vil være en disk (se illutrasjonen ovenfor. Jordas areal, sett fra sola treffer vil derfor være gitt ved A = $\pi$ $R^{2}$. 
 Energifluksen fra sola er gitt ved $S$, slik at total innkommen energi fra sola vil være gitt ved
 
-Innkommen energi (W) = $E_{\text{in}}$ = $A_{\text{jorda}}$ $\cdot$ $S$ = $\pi$ $R^{2}$ $S$
+Innkommen energi(W)= $E_{\text{in}}$ = $A_{\text{jorda}}$ $S$ = $\pi$$R^{2}$$S$
 
 Den totale innkommende energien treffer jordens overflate som vist i illustrasjonen ovenfor. En del av strålingen reflekteres tilbake til verdensrommet, mens resten absorberes av jordoverflaten – omtrent 50 %. Denne absorbert energien varmer opp jordkloden og er grunnlaget for den termiske energien som senere sendes ut som varmestråling.
 
