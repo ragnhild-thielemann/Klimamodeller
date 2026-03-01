@@ -10,4 +10,16 @@ Det er vanskelig å måle nøyaktig hvor stor denne effekten er, fordi det kreve
 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/egg.png)
 
+Vi innfører derfor albedoen $\alpha$ som en funskjon av temperaturen $T$. Albedoen er lav for overflate dekket av vann (havet absorberer mye innkommen varme), mens er høy for is (da det er en lys overflate som reflekterer mye). 
 
+En temperaturavhenig formel er gitt ved
+
+$$
+\alpha(T) = 0.7 - 0.4 \frac{e^{(T - 265)/5}}{1 + e^{(T - 265)/5}}
+$$
+
+som gir $\alpha(T)$ = 0.7 for $T<250$ og $\alpha(T)$ = 0.3 for $T>280$. 
+
+Plottet nedenfor viser dette.
+
+![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/variere_a.png)

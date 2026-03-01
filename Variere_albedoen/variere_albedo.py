@@ -23,6 +23,19 @@ def incoming_energy(T):
 def outgoing_energy(T):
     return 4 * np.pi * R**2 * e * sigma * T**4
 
+plt.plot(T_verdier,a(T_verdier),label = "a(T)",color = "purple")
+plt.title("Albedo som en funksjon av temperaturen")
+plt.ylabel("albedo")
+plt.xlabel("Temperatur (K)")
+         
+plt.grid(True)
+plt.legend()
+
+
+plt.show()
+#%%
+
+
 plt.plot(T_verdier,incoming_energy(T_verdier),label = "Innkommen varmeenergi fra sola",color = "hotpink")
 plt.plot(T_verdier,outgoing_energy(T_verdier),label = "Utgående varmeenergi fra jorda")
 plt.xlabel("Temperatur (K)")
