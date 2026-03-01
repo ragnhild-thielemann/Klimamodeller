@@ -39,8 +39,11 @@ Energibalansen viser forholdet mellom hvor  mye energi som kommer inn mot jordov
 ### Bygge modellen
 #### Innkommende energi
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/flat_jord.png)
+
+
 Sett fra sola vil jorda være en disk (se illutrasjonen ovenfor). Jordas areal derfor være gitt ved A = $\pi$ $R^{2}$. 
 Energifluksen fra sola er gitt ved $S$, slik at total innkommen energi fra sola vil være gitt ved
+
 
 $E_{\text{in}}$ = $A_{\text{jorda}}$ $S$ = $\pi$ $R^{2}$ $S$
 
