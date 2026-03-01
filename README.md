@@ -124,7 +124,7 @@ ren)
 Vi legger til den nye parameteren i utrykkene for innkommende og utgående stråling, som gir: 
 
 
-$E_{\text{in}}$ =  $\pi$ $R^{2}$ $S$ (1- $\alpha$ ) 
+$$E_{\text{in}} =  \pi R^{2} S (1- \alpha) $$
 
 
  $$E_{\text{ut}} 
