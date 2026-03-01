@@ -27,7 +27,7 @@ Forholdet mellom innkommen stråling fra sola, som absorberes av  jorda er illus
 | Parameter | Forklaring | Verdi|
 |-----------|-------|------|
 | $R$   | Jordens radius |6371 $10^{3}$ m  |
-| $S$  | Energitettheten fra Sola. Energitettheten er definert som mengden energi som kommer gjennom et areal på 1 $m^{2}$. For innkommen solenergi er dette  | 1367.7 $\Wm^{-2}|
+| $S$  | Energitettheten fra Sola. Energitettheten er definert som mengden energi som kommer gjennom et areal på 1 $m^{2}$. For innkommen solenergi er dette  | 1367.7 $\Wm^{-2}$|
 | $\sigma$  | Stefan–Boltzmann konstant | 5.67 $10^{-8}$|
 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/flat_jord.png)
@@ -60,11 +60,6 @@ $$
 
 Denne relasjonen danner et grunnleggende element i enkle klimamodeller, ettersom den kobler planetens temperatur direkte til dens evne til å kvitte seg med energi, og dermed inngår i vurderingen av energibalansen mellom innkommende solstråling og utgående varmestråling.
 
-
-
-
-
-Som følge av dette blir det vanskeligere for varmestrålingen å slippe ut til verdensrommet, og energien blir delvis “fanget” i atmosfæren. Dette fenomenet er grunnlaget for drivhuseffekten, og det er grunnlaget for hvorfor jordens gjennomsnittstemperatur er mye høyere enn den ville vært uten atmosfære.
 
 
 
