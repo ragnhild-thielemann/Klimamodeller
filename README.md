@@ -20,7 +20,7 @@ I den første delen utleder vi likningene for energibalansen. Forklaring og tilh
 
 #### Modelering temperaturendringene som en differensiallikning
 
-I del to av prosjektet studerer vi temperaturutviklingen over tid ved å betrakte den som proporsjonal med energiubalansen i systemet. Dersom jorden mottar mer energi enn den stråler ut, vil temperaturen øke, og dersom den stråler ut mer enn den mottar, vil temperaturen synke. Vi antar derfor at temperaturendringen er proporsjonal med differansen mellom innkommende og utgående stråling. Dette leder naturlig til en differensiallikning som beskriver hvordan temperaturen endrer seg over tid. Dette finnes i mappen [Modelering](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Modelering) ser vi på hva som skjer når vi varierer mengden drivhusgasser i atmosfæren, der vi modelerer temperaturendrignene ved  differensiallikninger. 
+I del to av prosjektet studerer vi temperaturutviklingen over tid ved å betrakte den som proporsjonal med energiubalansen i systemet. I mappen[Modelering](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Modelering) antar vi at temperaturendringen er proporsjonal med differansen mellom innkommende og utgående stråling. Dette leder naturlig til en differensiallikning som beskriver hvordan temperaturen endrer seg over tid. 
 
 
 #### La parametrene albedo $\alpha$ og drivhusgasser $\epsilon$ variere
