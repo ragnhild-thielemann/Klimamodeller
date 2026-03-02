@@ -23,9 +23,8 @@ Vi bruker utrykkene for $E_{\text{inn}}$ og $E_{\text{ut}}$ vi utledet i første
 
 $$C\frac{dT}{dt} = (1-\alpha) Q - \epsilon \sigma T^{4}.$$
 
-Dette gjenkjenner vi som en  $ordinary$ $differential$ $equation$ (ODE), der temperaturen $T$ er en funksjon av tiden $t$. Konstanten $C$ er Jordas varmekapasitet, som knytter tempeaturen til energitettheten. Konstanten C måles i Joule per Kelvin $\frac{J}{K}$
+Dette gjenkjenner vi som en  ordinary differential equation (ODE), der temperaturen $T$ er en funksjon av tiden $t$. Konstanten $C$ er Jordas varmekapasitet, som knytter tempeaturen til energitettheten. Konstanten C måles i Joule per Kelvin $\frac{J}{K}$
 ### Dagens nivå for klimagasser i atmosfæren
-
 #### $\epsilon$ = 0.6
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/dT_dt1.png)
 
@@ -39,16 +38,20 @@ Dermed vil temperaturendringen ($\frac{dT}{dt}$)være negativ, så tempeaturen v
 
 
 ### Endring i nivået for klimagasser i atmosfæren
-
+#### $\epsilon$ = 0.5
 Dersom vi reduserer verdien til parameteren epsilon $\epsilon$ , ved å øke nivået av klimagasser i atmosfæren vil vi få et nytt utrykk for $f(T)$. I [ulike_verdier_for_epsilon.py](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Modelering/ulike_verdier_for_epsilon.py) reduserer vi verdiene til $\epsilon$ = 0.5. 
 
+Differensiallikningen $f(T)$, som beskriver temperaturendringen $\frac{dT}{dt}$ som en funksjon av tempeaturen $T$, gir oss: 
+
+$$f(T) = C\frac{dT}{dt} = (1-\alpha) Q - \epsilon \sigma T^{4}.$$
+
+Vi ser at dersom vi øker andelen drivhusgasser i atmosfæren (og dermed resuserer paramteren $\epsilon$, alt annet likt, vil funksjonsverdiene$f(T)$ bli høyere for alle temperaturer $T$. Dette kommer frem i plottet nedenfor, som ligger høyere opp i diagrammet for alle temperaturer $T$. 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/to_verdier_for_epsilon.png)
 
-Selv om den matematiske strukturen til $f(T)$, da det er den samme differensiallikningen som i det første plottet, forskyves grafen oppover.
 
 Når vi reduserer parameteren $\epsilon$ , modellerer vi en sterkere drivhuseffekt. Det betyr at atmosfæren slipper ut mindre varmestråling, og jorda mister energi saktere enn før. Resultatet er at systemet får et positivt energioverskudd ved den gamle likevektstemperaturen.
 
 Energibalansen vil derfor jobbe mot en høyere likevektstemperatur. Så lenge innstrålt energi er større enn utstrålt energi (altså $f(T)$ > 0), vil temperaturen fortsette å øke. Temperaturen stiger helt til utstrålingen igjen er stor nok til å balansere innstrålingen. Først da får vi en ny likevekt der $f(T)$ = 0, eller $E_{inn}$ = $E_{ut}$
 
 I dette tilfellet skjer det ved omtrent 303 K (30 °C). Det betyr at systemet fortsatt søker mot balanse, men balansepunktet er forskjøvet til et høyere temperaturnivå. 
-### Med andre ord: klimaet stabiliserer seg, men rundt en varmere normaltilstand.
+### Med andre ord: klimaet stabiliserer seg rundt en varmere normaltilstand.

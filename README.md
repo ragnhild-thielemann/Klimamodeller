@@ -1,4 +1,4 @@
-# Klimamodeller
+# I ubalanse: En matematisk utforskning av jordens klima
 ![Modelering](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/forside.png)
 ## Innledning
 
@@ -24,6 +24,4 @@ I del to av prosjektet studerer vi temperaturutviklingen over tid ved å betrakt
 
 
 #### La parametrene albedo $\alpha$ og drivhusgasser $\epsilon$ variere
-I tredje del av prosjektet, i mappen [Variere_albedoen](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Variere_albedoen)
-
-I del tre av prosjektet utvider vi modellen ytterligere ved å la både albedoen og andelen drivhusgasser variere. Albedo $\alpha$ er et mål på hvor stor andel av den innkommende solstrålingen som reflekteres tilbake til verdensrommet. Når albedoen endres, påvirker det dermed energibalansen direkte. I denne delen undersøker vi hvordan temperaturutviklingen påvirkes når både drivhuseffekten og refleksjonsevnen til jorden får variere, noe som gir en mer dynamisk og realistisk klimamodell.
+I tredje del av prosjektet, i mappen [Variere_albedoen](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/Variere_albedoen) utvider vi modellen ytterligere ved å la både albedoen og andelen drivhusgasser variere. Albedo $\alpha$ er et mål på hvor stor andel av den innkommende solstrålingen som reflekteres tilbake til verdensrommet. Når albedoen endres, påvirker det dermed energibalansen direkte. I denne delen undersøker vi hvordan temperaturutviklingen påvirkes når både drivhuseffekten og refleksjonsevnen til jorden får variere, noe som gir en mer dynamisk og realistisk klimamodell.
