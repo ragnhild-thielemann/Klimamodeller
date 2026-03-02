@@ -23,3 +23,4 @@ som gir $\alpha(T)$ = 0.7 for $T<250$ og $\alpha(T)$ = 0.3 for $T>280$.
 Plottet nedenfor viser dette.
 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/variere_a.png)
+
