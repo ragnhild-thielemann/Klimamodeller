@@ -42,12 +42,12 @@ Denne likningen lar seg ikke løse numerisk, men vi ønsker allikvel å drøfte 
 
 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/drivhuseffekt.png)
-#### $T$ $\in [233, 265]$ 
-Av figuren ser vi at den blå grafen ligger over den rosa for $T$ $\in [233, 265]$ , som tilsier at $E_{\text{ut}}$ > $E_{\text{inn}}. Dette gir negative verdier for $f(T)$, slik at temperaturen på jorda vil avta. Temperaturen vil fortsette å synke til den når skjæringspunktet mellom de to kurvene ved $T$ = 233 K. Her er $E_{\text{ut}}$ = $E_{\text{inn}}, slik at punktet representerer et termisk likevektspunkt. Dette tilsvarer en temperatur på -40 grader Celsius. 
+### Temperaturer der $T$ $\in [233, 265]$ 
+Av figuren ser vi at den blå grafen ligger over den rosa for $T$ $\in [233, 265]$ , som tilsier at $E_{\text{ut}}$ > $E_{\text{inn}}. Dette gir negative verdier for $f(T)$, slik at temperaturen på jorda vil avta. Temperaturen vil fortsette å synke til den når skjæringspunktet mellom de to kurvene ved $T$ = 233 K. Her er $E_{\text{ut}}$ = $E_{\text{inn}}$ , slik at punktet representerer et termisk likevektspunkt. Dette tilsvarer en temperatur på -40 grader Celsius. 
 
-#### $T$ $\in [265, 288]$ 
+### Temperaturer der $T$ $\in [265, 288]$ 
 
-I dette intervallet ser vi at $E_{\text{ut}}$ < $E_{\text{inn}} , som gir postive verdier for $f(T)$, og dermed en positiv  temperaturendring. Temperaturen vil derfor øke, fremt il $f(T)$ = 0 ved $T$ = 288 K. Dette punktet tilsvarer jordens likevektstempertur ved omtrent 16 grader Celsius. 
+I dette intervallet ser vi at $E_{\text{ut}}$ < $E_{\text{inn}}$, som gir postive verdier for $f(T)$, og dermed en positiv  temperaturendring. Temperaturen vil derfor øke, fremt il $f(T)$ = 0 ved $T$ = 288 K. Dette punktet tilsvarer jordens likevektstempertur ved omtrent 16 grader Celsius. 
 
 ### En lav verdi for albedo murliggjør istider
 
