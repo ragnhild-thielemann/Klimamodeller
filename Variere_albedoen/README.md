@@ -24,3 +24,20 @@ Plottet nedenfor viser dette.
 
 ![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/variere_a.png)
 
+Vi har nå et utrykk for albedoen $\alpha$ som en funksjon av temperaturen $T$, $\alpha$ $(T)$. Dette gir oss følgene utrykk for innkommende og utgående energi fra jorda. 
+
+
+$$E_{\text{in}} =  \pi R^{2} S (1- \alpha (T)) $$
+
+
+ $$E_{\text{ut}} 
+ = 4\pi R^2 \epsilon \sigma T^4  
+$$
+
+Differensiallikningen, som bekriver tempeaturendringen som proposjonal til energi-ubalansen blir dermed:
+
+$$f(T) = C\frac{dT}{dt} = (1-\alpha (T)) Q - \epsilon \sigma T^{4}.$$
+
+Denne likningen lar seg ikke løse numerisk, men vi ønsker allikvel å drøfte de ulike funksjonsverdiene til $f(T)$. I plottet er det tegnet to grafer, en rosa for $E_{\text{inn}} og en blå graf for $E_{\text{ut}}$. 
+
+
