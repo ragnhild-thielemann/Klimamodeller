@@ -38,6 +38,10 @@ Differensiallikningen, som bekriver tempeaturendringen som proposjonal til energ
 
 $$f(T) = C\frac{dT}{dt} = (1-\alpha (T)) Q - \epsilon \sigma T^{4}.$$
 
-Denne likningen lar seg ikke løse numerisk, men vi ønsker allikvel å drøfte de ulike funksjonsverdiene til $f(T)$. I plottet er det tegnet to grafer, en rosa for $E_{\text{inn}} og en blå graf for $E_{\text{ut}}$. 
+Denne likningen lar seg ikke løse numerisk, men vi ønsker allikvel å drøfte de ulike funksjonsverdiene til $f(T)$. I plottet er det tegnet to grafer, en rosa for $E_{\text{inn}}$ og en blå graf for $E_{\text{ut}}$.
 
+
+![yayayaya](https://github.com/ragnhild-thielemann/Klimamodeller/blob/main/images/drivhuseffekt.png)
+
+Vi ser at for temperaturer $x$ $\in [( x \in [233, 265]$ 
 
